@@ -1,7 +1,12 @@
 package br.com.magabrew.service;
 
+import java.util.List;
+
 import javax.jws.WebService;
 import javax.xml.ws.Endpoint;
+
+import br.com.megabrew.dao.ProdutoDAO;
+import br.com.megabrew.model.Produto;
 
 @WebService
 public class ListarCervejas {
@@ -16,6 +21,4 @@ public class ListarCervejas {
 		System.out.println("Serviço inicializado");
 	}
 	
-	
-
 }

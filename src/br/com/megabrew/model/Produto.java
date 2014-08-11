@@ -7,14 +7,14 @@ public class Produto {
 	private String unidadeDeMedida;
 	private String volume;
 	private int quantidade;
-	private Float preco;
+	private Double preco;
 
 	public Produto() {
 		super();
 	}
 
 	public Produto(String nome, String descricao, String unidadeDeMedida,
-			String volume, int quantidade, Float preco) {
+			String volume, int quantidade, Double preco) {
 		super();
 		this.nome = nome;
 		this.descricao = descricao;
@@ -64,11 +64,11 @@ public class Produto {
 		this.quantidade = quantidade;
 	}
 
-	public Float getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
 
-	public void setPreco(Float preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
 
