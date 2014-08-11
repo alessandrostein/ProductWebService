@@ -18,7 +18,7 @@ public class ListarCervejas {
 	
 	public static void main(String[] args){
 		Endpoint.publish("http://localhost:8180/Produtos", new ListarCervejas());
-		System.out.println("Serviço inicializado");
+		System.out.println("Serviço inicializado /Produtos");
 	}
 	
 }
