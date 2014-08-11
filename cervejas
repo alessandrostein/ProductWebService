@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:listarCervejasResponse xmlns:ns2="http://service.magabrew.com.br/">
+         <return>
+            <descricao>Cerveja feito artesanalmente com toque Irlandês</descricao>
+            <nome>Cerveja Stannis</nome>
+            <preco>7.0</preco>
+            <quantidade>50</quantidade>
+            <unidadeDeMedida>litro</unidadeDeMedida>
+            <volume>dm3</volume>
+         </return>
+         <return>
+            <descricao>Heineken International é uma cervejaria holandesa, fundada em 1863 por Wandscheer Heineken na cidade de Amsterdã.</descricao>
+            <nome>Cerveja Heineken</nome>
+            <preco>7.0</preco>
+            <quantidade>48</quantidade>
+            <unidadeDeMedida>litro</unidadeDeMedida>
+            <volume>dm3</volume>
+         </return>
+         <return>
+            <descricao>A Stella Artois é uma cerveja pilsner lager (de baixa fermentação) premium, que tem suas origens em uma tradicional cervejaria chamada Den Hoorn, que data em 1366, uma das mais antigas do mundo.</descricao>
+            <nome>Cerveja Stella Artois</nome>
+            <preco>7.0</preco>
+            <quantidade>26</quantidade>
+            <unidadeDeMedida>litro</unidadeDeMedida>
+            <volume>dm3</volume>
+         </return>
+         <return>
+            <descricao>Ccrvejas e chopes super premium, puro malte, que utilizam matérias-primas extremamente selecionadas.</descricao>
+            <nome>Cerveja Karavelle</nome>
+            <preco>7.0</preco>
+            <quantidade>11</quantidade>
+            <unidadeDeMedida>litro</unidadeDeMedida>
+            <volume>dm3</volume>
+         </return>
+      </ns2:listarCervejasResponse>
+   </S:Body>
+</S:Envelope>
